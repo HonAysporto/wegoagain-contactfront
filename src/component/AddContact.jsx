@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 const AddContact = () => {
 
     const navigate = useNavigate()
-    let url = "https://wegoagain-contactback.onrender.com/addcontact"
+    let url = "https://wegoagain-contactback.onrender.com/contact/git addcontact"
 
 
     const [firstname, setfirstname] = useState("")
