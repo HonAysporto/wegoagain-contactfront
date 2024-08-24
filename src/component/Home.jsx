@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const Home = () => {
   const navigate = useNavigate();
-  const url = "http://localhost:5000/contact/display";
+  const url = "https://wegoagain-contactback-1.onrender.com/display";
   const [allContacts, setallContacts] = useState([]);
 
   useEffect(() => {

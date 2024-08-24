@@ -10,7 +10,7 @@ const Contact = () => {
     const { userid } = useParams();
     const navigate = useNavigate();
     
-    const url = "http://localhost:5000/contact/contact"
+    const url = "https://wegoagain-contactback-1.onrender.com/contact"
 
     useEffect(() => {
         // Fetch data from the API using axios.post
