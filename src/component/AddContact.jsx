@@ -38,42 +38,42 @@ const AddContact = () => {
                 <input
                     type="text"
                     placeholder="First Name"
-                    onChange={(e) => setFirstname(e.target.value)}
+                    onChange={(e) => setfirstname(e.target.value)}
                     value={firstname}
                     className="w-full p-3 border border-green-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
                 />
                 <input
                     type="text"
                     placeholder="Last Name"
-                    onChange={(e) => setLastname(e.target.value)}
+                    onChange={(e) => setlastname(e.target.value)}
                     value={lastname}
                     className="w-full p-3 border border-green-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
                 />
                 <input
                     type="text"
                     placeholder="Description"
-                    onChange={(e) => setDescription(e.target.value)}
+                    onChange={(e) => setdescription(e.target.value)}
                     value={description}
                     className="w-full p-3 border border-green-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
                 />
                 <input
                     type="text"
                     placeholder="Home Address"
-                    onChange={(e) => setHomeaddress(e.target.value)}
+                    onChange={(e) => sethomeaddress(e.target.value)}
                     value={homeaddress}
                     className="w-full p-3 border border-green-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
                 />
                 <input
                     type="text"
                     placeholder="Email Address"
-                    onChange={(e) => setEmail(e.target.value)}
+                    onChange={(e) => setemail(e.target.value)}
                     value={email}
                     className="w-full p-3 border border-green-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
                 />
                 <input
                     type="number"
                     placeholder="Phone Number"
-                    onChange={(e) => setNumber(e.target.value)}
+                    onChange={(e) => setnumber(e.target.value)}
                     value={number}
                     className="w-full p-3 border border-green-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
                 />
