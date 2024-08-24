@@ -1,0 +1,12 @@
+   <div className="bg-yellow-100 ">
+      <h1 className="text-3xl text-center text-green-500 font-bold mb-7">Add new contact</h1>
+      <div className="flex ">
+        <input type="text" placeholder="First Name" onChange={(e)=>setfirstname(e.target.value)} value={firstname}/>
+        <input type="text" placeholder="Last Name" onChange={(e)=>setlastname(e.target.value)} value={lastname}/>
+        <input type="text" placeholder="Description" onChange={(e)=>setdescription(e.target.value)} value={description}/>
+        <input type="text" placeholder="Home Address" onChange={(e)=>sethomeaddress(e.target.value)} value={homeaddress}/>
+        <input type="text" placeholder="Email Address" onChange={(e)=>setemail(e.target.value)} value={email}/>
+        <input type="number" placeholder="Phone Number" onChange={(e)=>setnumber(e.target.value)} value={number}/>
+      </div>
+        <button onClick={addContact}>Add</button>
+      </div>
